@@ -1,0 +1,71 @@
+/* Write your CSS here */
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Roboto';
+
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 14px;
+}
+
+.img-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.div-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-bg-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.list-text-dark-theme {
+  color: #ffffff;
+}
+
+.list-text-light-theme {
+  color: #171f46;
+}
+
+.navbar-bg-dark {
+  background-color: #333333;
+}
+
+.home-and-about-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 0px;
+}
+
+.nav-right-theme-img {
+  width: 20px;
+  margin-top: 18px;
+}
+
+.nav-light-theme-img {
+  width: 30px;
+  margin-top: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .paragraph {
+    font-size: 20px;
+  }
+  .div-container {
+    max-width: 90%;
+  }
+}

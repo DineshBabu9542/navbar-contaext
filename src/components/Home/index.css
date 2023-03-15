@@ -1,0 +1,35 @@
+/* Write your CSS here */
+
+.home-img {
+  width: 80px;
+}
+
+.home-bg-dark {
+  background-color: #000000;
+}
+
+.home-bg-light {
+  background-color: #ffffff;
+}
+
+.home-text-light {
+  color: #1e293b;
+}
+
+.home-text-dark {
+  color: #ffffff;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home-heading {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
